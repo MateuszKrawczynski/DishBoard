@@ -1,0 +1,13 @@
+<%- include("./particles/head.ejs"); %>
+<body>
+    <center><h1>DishBoard</h1></center>
+    <center>
+        <form action="/new" method="post">
+            <textarea  class="textarea" name="content" placeholder="Describe your order..." required></textarea>
+            <br><br><br>
+            <button class="order">Order</button>
+        </form>
+    </center>
+    <%- include("./particles/footer.ejs") %>
+</body>
+</html>
